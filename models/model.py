@@ -9,7 +9,7 @@ https://github.com/huggingface/transformers/blob/main/src/transformers/models/gp
 
 import math
 import inspect
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 
 import torch
 import torch.nn as nn
@@ -121,6 +121,9 @@ class GPTConfig:
     n_embd: int = 768
     dropout: float = 0.0
     bias: bool = True # True: bias in Linears and LayerNorms, like GPT-2. False: a bit better and faster
+
+    def dict(self):
+        return {k: str(v) for k, v in asdict(self).items()}
 
 class GPT(nn.Module):
 

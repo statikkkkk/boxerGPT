@@ -1,2 +1,7 @@
 .ipynb_checkpoints
 .DS_Store
+.vscode
+lightning_logs
+__pycache__
+wandb
+boxerGPT
