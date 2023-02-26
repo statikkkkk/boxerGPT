@@ -3,7 +3,7 @@
 ![Black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)
 
 ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-[![Hugging Face](https://img.shields.io/badge/hugging%20face-FF6E00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/statikkkkk/boxerGPT)
+[![Hugging Face](https://img.shields.io/badge/hugging%20face-FF6E00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/statikkkkk/boxerGPT)
 [![Weights and Biases](https://img.shields.io/badge/weights%20and%20biases-333333?style=for-the-badge&logo=weightsandbiases&logoColor=white)](https://wandb.ai/statikkkkk/boxerGPT/)
 
 
