@@ -38,7 +38,7 @@ Notably, unlike the original GPT-3 paper, the model is not trained on a large co
 - Unlike the original nanoGPT implementation, where it was randomly selecting chunks of text from the dataset using a single random index, I have to iterate through the batch of sequences and generate the random seed individually.
 
 ## Training
-The model is trained on a single Mac Studio with M1 Max. Unlike the original nanoGPT implementation, I wrapped the GPT model in Pytorch Lightning for easier training. The model is trained for 100 epochs with a batch size of 128 - for more detailed hyperparameters, please visit W&B[W&B - boxerGPT](https://wandb.ai/statikkkkk/boxerGPT/).
+The model is trained on a single Mac Studio with M1 Max. Unlike the original nanoGPT implementation, I wrapped the GPT model in Pytorch Lightning for easier training. The model is trained for 100 epochs with a batch size of 128 - for more detailed hyperparameters, please visit [W&B - boxerGPT](https://wandb.ai/statikkkkk/boxerGPT/).
 
 ## Results
 The model eventually converged to a loss of around 2.1:
