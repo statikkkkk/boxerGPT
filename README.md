@@ -17,7 +17,7 @@
 
 
 ## Introduction
-Are you a boxer? Have you always tried to figure out what to do when you asked to shadowbox? Well, this is the solution for you! This is a tiny GPT-3 model that will generate endless boxing combo and routines for you. 
+Are you a boxer? Have you always tried to figure out what to do when you asked to shadowbox? Well, this is the solution for you! This is a tiny GPT-3 model (only 43M parameters) that will generate endless boxing combo and routines for you. 
 
 ## Usage
 ### 🤗 HuggingFace Space
